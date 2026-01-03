@@ -2,6 +2,7 @@ import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
 import Services from "../components/Services";
 import OurWork from "../components/OurWork"
+import Footer from "../components/layouts/Footer";
 
 const HomePage = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage = () => {
             <AboutSection />
             <Services />
             <OurWork />
+            <Footer />
         </div>
     )
 }
