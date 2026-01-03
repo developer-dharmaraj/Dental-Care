@@ -7,7 +7,7 @@ const Footer = () => {
                 <h1 className="absolute bottom-[-30px] left-5 text-[180px] font-bold text-white/10 select-none leading-none">
                     {footerConfig.backgroundText}
                 </h1>
-                <div className="relative z-10 px-10 pt-14 pb-10 grid grid-cols-1 md:grid-cols-4 gap-10">
+                <div className="relative z-10 px-4 pt-14 pb-10 grid grid-cols-1 md:grid-cols-4 gap-10">
                     <div>
                         <h2 className="text-white text-xl font-semibold mb-6 whitespace-pre-line">{footerConfig.newsletter.title}</h2>
                         <div className="flex justify-around items-center border-b border-gray-600 pb-2 max-w-xs">
