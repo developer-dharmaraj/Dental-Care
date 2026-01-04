@@ -9,7 +9,7 @@ const HeroSection = () => {
                     <div className="absolute w-full top-3 z-50"><Navbar /></div>
                     <img src={hero.backgroundImage} alt="Dental Care" className="absolute inset-0 w-full h-full object-cover" />
                     <div className={`absolute inset-0 ${hero.overlay}`} />
-                    <div className="relative flex items-center z-10 h-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 text-white">
+                    <div className="relative flex items-center z-10 h-full mt-12 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 text-white">
                         <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mt-24 sm:mt-28 md:mt-32 lg:mt-36 xl:mt-40">
                             <h1 className="font-semibold text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight">
                                 {hero.title.line1} <br /> {hero.title.line2}
